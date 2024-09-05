@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Linama!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday, Linama!</h1>
+    </header>
+    
+    <section id="greeting">
+        <p>Linamaa, have a blessed n amazing year! Thank you for sticking by for so longgg and making my days more special and being in my life as a whole. You already know I love you loads xx. Enjoy today and the resttt 💖💐</p>
+        <button onclick="showSurprise()">Click for a surprise!</button>
+    </section>
+    
+    
+
+    <section id="surprise" style="display: none;">
+        <h2>🎉 Surprise! 🎉</h2>
+        <p>Here's a hug for you</p>
+        <img src="4.gif" alt="Surprise GIF" width="300">
+    </section>
+
+    <section id="gallery">
+        <h2>Memories</h2>
+        <div class="gallery-container">
+            <img src="1.png" alt="Memory 1">
+            <img src="2.png" alt="Memory 2">
+            <img src="3.png" alt="Memory 3">
+        </div>
+    </section>
+
+    <section id="cake-section">
+        <h2>Happy Birthday. Don't forget to Blow the Candles</h2>
+        <div class="cake" id="cake">
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="layer"></div>
+            <div class="candle" id="candle1"></div>
+            <div class="candle" id="candle2"></div>
+            <div class="candle" id="candle3"></div>
+        </div>
+        <button onclick="lightUpCandles()">Light Up Candles</button>
+        
+        <!-- Add this for the birthday pop-up message -->
+        <div id="birthday-popup" class="popup-message" style="display:none;">
+            HAPPY 17TH BIRTHDAY, LINAMA!
+        </div>
+    </section>
+    
+    <footer>
+        <p>Made with ❤️ by Noor</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
